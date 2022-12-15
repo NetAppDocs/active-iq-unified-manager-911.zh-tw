@@ -11457,7 +11457,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-11 16:21:59 +0000">11/11/2022</time>
+    <time datetime="2022-12-14 18:46:03 +0000">12/14/2022</time>
     
   
 
@@ -11478,7 +11478,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="掛載oppnetappdata時設定selinux內容">掛載/opp/NetApp/data時設定SELinux內容</h2>
+<h2 id="在下列情況下設定selinux內容-optnetappdata-已掛載">在下列情況下設定SELinux內容 <code>/opt/netapp/data</code> 已掛載</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>如果您已掛載 <code>/opt/netapp/data</code> 在您的系統中、SELinux設定為 <code>Enforcing</code>、請確定的SELinux內容類型 <code>/opt/netapp/data</code> 設為 <code>mysqld_db_t</code>，這是資料庫檔案位置的預設內容元素。</p>
@@ -11557,7 +11557,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="在掛載oppnetapp時設定selinux內容並單獨掛載oppnetappdata">在掛載/opp/netapp時設定SELinux內容、並單獨掛載/opp/NetApp/data/</h2>
+<h2 id="在下列情況下設定selinux內容-optnetapp-已掛載和-optnetappdata-也需個別安裝">在下列情況下設定SELinux內容 <code>/opt/netapp</code> 已掛載、和 <code>/opt/netapp/data/</code> 也需個別安裝</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>在此案例中、您應該先設定的內容 <code>/opt/netapp/data/</code> 如前一節所述。設定正確的內容之後 <code>/opt/netapp/data/</code>，確保父目錄 <code>/opt/netapp</code> 未將SELinux內容設為 <code>file_t</code>。</p>
@@ -11640,7 +11640,7 @@ restorecon -v /opt/netapp</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="在掛載了oppnetapp且未單獨掛載oppnetappdata時設定selinux內容">在掛載了/opp/netapp且未單獨掛載/opp/NetApp/data/時設定SELinux內容</h2>
+<h2 id="在下列情況下設定selinux內容-optnetapp-已掛載和-optnetappdata-並非單獨安裝">在下列情況下設定SELinux內容 <code>/opt/netapp</code> 已掛載、和 <code>/opt/netapp/data/</code> 並非單獨安裝</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>如果您已掛載  <code>/opt/netapp</code> 在您的系統中、SELinux設定為 <code>Enforcing</code>、請確定的SELinux內容類型 <code>/opt/netapp</code> 設為 <code>mysqld_db_t</code>，這是資料庫檔案位置的預設內容元素。</p>
