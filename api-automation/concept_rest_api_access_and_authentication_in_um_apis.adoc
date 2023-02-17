@@ -17,12 +17,9 @@ summary: 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設�
 
 * *申請*
 +
-取得
-
-
-
 [listing]
 ----
+GET
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * *回應*
@@ -103,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-若要從網頁瀏覽器發出POST、修補及刪除HTTP要求、您必須使用瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。
+若要從網頁瀏覽器發出HTTP要求、您必須使用REST API瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。
 
 
 

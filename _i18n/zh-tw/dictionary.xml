@@ -6692,7 +6692,6 @@
   <block id="eb6391db314b5af4580f33130f643fa1" category="list-text"><block ref="650ecb8f30701643120c1b542226a9c1" prefix="" category="inline-code"></block> 是API伺服器的IP位址或完整網域名稱（FQDN）。</block>
   <block id="5c06e352f423d0b621ec486ba1ddac59" category="list-text">連接埠443</block>
   <block id="886644038ceb418e68b90e363a33a45e" category="paragraph">443是預設的HTTPS連接埠。您可以視需要自訂HTTPS連接埠。</block>
-  <block id="0535c12ab1bf9e6e8b5fa038d3c157ac" category="paragraph">若要從網頁瀏覽器發出POST、修補及刪除HTTP要求、您必須使用瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。</block>
   <block id="c75f7811d70d17dbcd88e9d03752cbed" category="section-title">驗證</block>
   <block id="55f5492d0585d69456c8ee38af804ac6" category="paragraph">Unified Manager支援API的基本HTTP驗證配置。為了確保資訊流程安全（要求和回應）、REST API只能透過HTTPS存取。API伺服器會為所有用戶端提供自我簽署的SSL憑證、以便進行伺服器驗證。此憑證可由自訂憑證（或CA憑證）取代。</block>
   <block id="74b6a9a3bbabb0fe6c40b6199d727d06" category="paragraph">您必須設定使用者對API伺服器的存取權限、才能叫用REST API。使用者可以是本機使用者（儲存在本機資料庫中的使用者設定檔）或LDAP使用者（如果您已將API伺服器設定為透過LDAP驗證）。您可以登入Unified Manager管理主控台使用者介面來管理使用者存取。</block>
@@ -11614,18 +11613,38 @@
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">在Windows系統上安裝Unified Manager</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">保護及還原資料</block>
   <block id="7daa41760e1a8fba65d06a1a254f35d9" category="sidebar">建立及疑難排解保護關係</block>
-  <block id="7518ca1d997947cafeacfe6e7557df98" category="sidebar">從SnapVault 「健全狀況/所有磁碟區」檢視建立不受保護的關係</block>
-  <block id="7c35d6a9594204995ca67f76b440f42c" category="sidebar">從「健全狀況/所有磁碟區」檢視建立SnapMirror保護關係</block>
   <block id="de2f4d35fcabc7c6e7fc7bd51348d291" category="sidebar">使用健全狀況/所有磁碟區檢視來還原資料</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">瞭解儲存VM關聯</block>
-  <block id="55c616fb8df8d2d739c5a910d9f3e8cc" category="sidebar">關係/所有關係檢視</block>
-  <block id="917d12d3945843e955409b6049824fe7" category="sidebar">關係/過去1個月的轉帳狀態檢視</block>
-  <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">關係/過去1個月的轉帳率檢視</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">在Linux系統上安裝Unified Manager</block>
-  <block id="2c3b76077caf066bc2963e52113e2e78" category="sidebar">在NFS或CIFS共用區上掛載/opp/netapp或/opp/NetApp/data的SELinux需求</block>
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">在下列情況下設定SELinux內容<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 已掛載</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 也需個別安裝</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 並非單獨安裝</block>
   <block id="f9344604b22486566c3e6d70cc163f8b" category="paragraph">您可以使用任何REST用戶端或程式設計平台、利用基本的HTTP驗證機制來發出HTTP要求、藉此存取此靜態API Active IQ Unified Manager 。</block>
   <block id="e5595563cfe055cddbdb1a7ae1efcfad" category="paragraph">要求與回應範例：</block>
+  <block id="590e5f2d8030dd7492b5a2f24f056c33" category="paragraph">若要從網頁瀏覽器發出HTTP要求、您必須使用REST API瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。</block>
+  <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">建立報告以檢視幾乎已滿的集合體</block>
+  <block id="f667431c76a047fbe92c5ea4f107f5be" category="sidebar">從Volume健全狀況詳細資料頁面中斷SnapMirror關係</block>
+  <block id="825540d2e356a2301d8157e67a70b20a" category="sidebar">從Volume健全狀況詳細資料頁面反轉保護關係</block>
+  <block id="9e602f9b4f36392b1a1428c981e37711" category="sidebar">從Volume健全狀況詳細資料頁面移除保護關係</block>
+  <block id="a1b4c0ddea6f9c40fd2cd596b4f7b018" category="sidebar">從Volume健全狀況詳細資料頁面重新同步保護關係</block>
+  <block id="884392bffbe4579f85c30e1e54b015d3" category="sidebar">從SnapVault 「All Volumes」（所有磁碟區）檢視建立不受保護的關係</block>
+  <block id="6e05686f2b2c07b3c6c6117873668333" category="sidebar">從SnapVault Volume健全狀況詳細資料頁面建立不完整的保護關係</block>
+  <block id="e9469afe9efe59fc810579b52fb8fc93" category="sidebar">從All Volumes（所有磁碟區）檢視建立SnapMirror保護關係</block>
+  <block id="7b8c66535079341892aef1a493ce88c4" category="sidebar">從Volume健全狀況詳細資料頁面建立SnapMirror保護關係</block>
+  <block id="7e583f9e2b84b24680ccacedb923f893" category="sidebar">從Volume健全狀況詳細資料頁面編輯保護關係</block>
+  <block id="2f73e4b880758398d71cbda6956e4261" category="sidebar">從Volume健全狀況詳細資料頁面中止作用中資料保護傳輸</block>
+  <block id="1a332e4345b7b166cc346094f426d59b" category="sidebar">從Volume健全狀況詳細資料頁面靜止保護關係</block>
+  <block id="0a7e2554ab5f606db9e7cd3f955d6876" category="sidebar">從Volume健全狀況詳細資料頁面、以靜止關係恢復排程傳輸</block>
+  <block id="6b8b5e644fe51ebdbf59ca41a2e0bd5d" category="sidebar">從Volume健全狀況詳細資料頁面初始化或更新保護關係</block>
+  <block id="4854bf8d6304b20e8a8e266470ff2f5a" category="sidebar">使用Volume健全狀況詳細資料頁面還原資料</block>
+  <block id="54ad2ceecf79def094226d610fbf9cdf" category="sidebar">初始化或更新對話方塊</block>
+  <block id="ad1e91efa1709ebf1317182df97e21ac" category="sidebar">「所有關係」檢視</block>
+  <block id="a1aa3dc0c225c91968f0c1b9e0426594" category="sidebar">過去1個月的「傳輸狀態」檢視</block>
+  <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">過去1個月的「傳輸率」檢視</block>
+  <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">NFS或CIFS共用上的SELinux需求</block>
+  <block id="a6d6cdd1e4eb84a93808203243318dd0" category="sidebar">檢視SMB或CIFS共用的詳細資料</block>
+  <block id="721115a56e25cbc2949dce662727ea1a" category="sidebar">Volume健全狀況詳細資料</block>
+  <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">儲存VM健全狀況詳細資料</block>
+  <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">叢集健全狀況詳細資料</block>
+  <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">Aggregate健全狀況詳細資料</block>
 </blocks>
