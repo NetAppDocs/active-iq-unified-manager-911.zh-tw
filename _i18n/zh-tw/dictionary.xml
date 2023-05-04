@@ -8657,9 +8657,6 @@
   <block id="8a89f6664254d9a94578dae683c48cce" category="list-text">從複製內容<block ref="9a284b8d10072a11cb0d5402d3bdcc42" prefix=" " category="inline-code"></block> 回到擴充的<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 目錄：</block>
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">您可以使用「叢集設定」頁面來檢視叢集的詳細目錄。您可以檢視叢集的詳細資料、例如其名稱或IP位址和通訊狀態。</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">檢視受監控叢集的清單</block>
-  <block id="9dc7252bbef57ce4f0d03bcddb84711c" category="paragraph">叢集清單會依集合狀態嚴重性層級欄排序。您可以按一下欄標題、依不同欄位排序叢集。</block>
-  <block id="45ec896bf3e43c4d453f4fa4f22106ca" category="inline-link-macro">「組態/叢集資料來源」頁面</block>
-  <block id="01b124e9964263d377fc183d69afb2ed" category="paragraph"><block ref="01b124e9964263d377fc183d69afb2ed" category="inline-link-macro-rx"></block></block>
   <block id="88c88f6b56a9d98bd33b05c15caf1b59" category="summary">「產生使用者和群組配額的規則電子郵件地址」頁面可讓您建立規則、根據與叢集、SVM、磁碟區、qtree、使用者、 或使用者群組。當超出配額時、系統會將通知傳送至指定的電子郵件地址。</block>
   <block id="51ec35fdada9b22f0ab61058a1d6b10a" category="doc">產生使用者和群組配額電子郵件地址頁面的規則</block>
   <block id="38177b330d524696f6cd3f56f4146279" category="section-title">規則區域</block>
@@ -11575,8 +11572,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
-  <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">文件資料以供參考9.10 Active IQ Unified Manager</block>
-  <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">舊版文件</block>
   <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">執行組態和管理工作</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">監控及管理叢集健全狀況</block>
@@ -11647,4 +11642,7 @@
   <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">儲存VM健全狀況詳細資料</block>
   <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">叢集健全狀況詳細資料</block>
   <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">Aggregate健全狀況詳細資料</block>
+  <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> 是否需要精靈程式來啟動和停止MySQL伺服器。</block>
+  <block id="13490f69efe6e04b704eff78476a43b8" category="paragraph">隨即顯示 Unified Manager 所管理儲存環境中的所有叢集。叢集清單會依集合狀態嚴重性層級欄排序。您可以按一下欄標題、依不同欄位排序叢集。</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
 </blocks>

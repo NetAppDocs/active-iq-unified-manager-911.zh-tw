@@ -40,3 +40,9 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 `systemctl start ocieau`
 
 
+
+[NOTE]
+====
+`mysqld` 是否需要精靈程式來啟動和停止MySQL伺服器。
+
+====
