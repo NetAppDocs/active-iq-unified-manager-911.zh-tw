@@ -1425,7 +1425,6 @@
   <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。不過、如果Unified Manager管理大量的叢集和節點、或是MySQL備份需要花費許多小時才能完成、您可以使用Snapshot複本進行備份。此功能適用於Red Hat Enterprise Linux、CentOS Linux系統和Windows。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">資料庫傾印備份是由備份目錄中的單一檔案和資料庫儲存庫目錄中的一或多個檔案所組成。備份目錄中的檔案非常小、因為它只包含指向位於資料庫儲存庫目錄中的檔案的指標、而這些檔案是重新建立備份所需的。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">第一次產生資料庫備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立完整備份檔案。下次產生備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立遞增備份檔案、其中包含與完整備份檔案的差異。當您建立額外的備份時、此程序會持續執行、直到達到最大保留設定為止、如下圖所示。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">資料庫備份</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">請勿重新命名或移除這兩個目錄中的任何備份檔案、否則任何後續的還原作業都會失敗。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">如果您將備份檔案寫入本機系統、則應啟動程序、將備份檔案複製到遠端位置、以便在發生需要完整還原的系統問題時使用。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">在開始備份作業之前Active IQ Unified Manager 、執行完整性檢查、確認所有必要的備份檔案和備份目錄都存在且可寫入。它也會檢查系統上是否有足夠的空間來建立備份檔案。</block>
@@ -11645,4 +11644,5 @@
   <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> 是否需要精靈程式來啟動和停止MySQL伺服器。</block>
   <block id="13490f69efe6e04b704eff78476a43b8" category="paragraph">隨即顯示 Unified Manager 所管理儲存環境中的所有叢集。叢集清單會依集合狀態嚴重性層級欄排序。您可以按一下欄標題、依不同欄位排序叢集。</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
+  <block id="fb433a9b7897073e3d41673a4e2e35a5" category="image-alt">備份還原</block>
 </blocks>
