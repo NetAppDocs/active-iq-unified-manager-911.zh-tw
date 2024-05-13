@@ -12,7 +12,6 @@
   <block id="c78b2fb18f2fe61f95fe42e52ba53764" category="list-text">升級9.9 -&gt; 9.11。</block>
   <block id="735de3cfc0c0985a1a724be6fb3d04d4" category="inline-link">知識庫（KB）文章</block>
   <block id="7ff27f75b12e833d98540444694dad8f" category="paragraph">如需升級路徑對照表的詳細資訊、請參閱<block ref="873d5f2f4cecdaf6f22eb65b543f2b7f" category="inline-link-rx"></block>。</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">適用於《The》、《AIQUM》文件、《UM》文件的文件Active IQ Unified Manager</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
   <block id="369d42629beea2ad70c23667467de925" category="summary">您可以建立角色並指派功能、以控制使用者對所選叢集物件的存取。您可以識別擁有所需功能的使用者、以存取叢集內的選定物件。只有這些使用者可以存取、以管理叢集物件。</block>
   <block id="7307896fb54bf8a51c3bcec77ec0b679" category="doc">管理使用者存取</block>
@@ -11567,7 +11566,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">執行組態和管理工作</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">監控及管理叢集健全狀況</block>
   <block id="a56ba57e5caff729c6d136191605d68c" category="sidebar">正在評估哪些安全性準則</block>
@@ -11649,4 +11647,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="37c7899d698773f8f7aa6773dd5364e8" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.11 版的資訊。</block>
+  <block id="65636d112d8b82b2ab94299262a2cc8c" category="sidebar">Active IQ Unified Manager 9.11 的文件。</block>
 </blocks>
