@@ -41,6 +41,7 @@ link:concept_install_https_certificate_generated_using_external_tools.html["安�
 
 
 
+[[example-certificate-chain]]
 == 範例憑證鏈結
 
 下列範例顯示憑證鏈結檔案的顯示方式：

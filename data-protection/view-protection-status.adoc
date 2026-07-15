@@ -29,6 +29,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == 檢視受Snapshot複本保護之磁碟區的保護狀態
 
 * Snapshot複本總覽*：Snapshot複本保護的磁碟區總覽、例如：
@@ -47,6 +48,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Snapshot複本的注意事項
 
 * 對於計算受Snapshot複本保護的磁碟區、會同時考慮來源與目的地磁碟區。
@@ -57,6 +59,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == 檢視SnapMirror關係的保護狀態
 
 * SnapMirror Overview *：SnapMirror原則保護的磁碟區總覽、例如：
@@ -76,6 +79,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === SnapMirror關係請注意
 
 * 為了計算SnapMirror關係、會計算啟用讀取和寫入的來源磁碟區。不考慮目的地和根磁碟區。
